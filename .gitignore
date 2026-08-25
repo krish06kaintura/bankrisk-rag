@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FAISS / Index dumps
+*.faiss
+*.index
+
+# HuggingFace & Torch cache
+.cache/
+hf_cache/
+
+# IDE / Editor files
+.vscode/
+.idea/
+.gemini/
+
+# Environment Variables
+.env
