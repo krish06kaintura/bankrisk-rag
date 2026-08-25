@@ -4,7 +4,7 @@ import pymupdf
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 def parse_filename_metadata(filename):
-    """
+    """ 
     Extracts bank name and fiscal year from standard naming convention:
     e.g., 'hdfc_fy26.pdf' -> ('HDFC', 2026)
           'icici_fy25.pdf' -> ('ICICI', 2025)
